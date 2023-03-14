@@ -38,7 +38,7 @@ const EditorDatePicker = ({
             variant={variant}
             helperText={error ? errMsg : ""}
             error={error}
-            style={{ width: "100%" }}
+            style={{ width: "100%" ,marginBottom:"10rem"}}
             {...params}
           />
         )}
